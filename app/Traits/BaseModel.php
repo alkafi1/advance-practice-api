@@ -2,7 +2,7 @@
 
 namespace App\Traits;
 
-trait FilterSortSearch
+trait BaseModel
 {
     public function scopeSearch($query, $search, $columns = ['name'])
     {
